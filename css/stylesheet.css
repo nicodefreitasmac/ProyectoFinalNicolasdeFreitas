@@ -1,0 +1,73 @@
+*{
+	/*font-family: 'roboto', sans-serif;*/
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+/* Clases del Index*/
+
+.bg-index{
+background-color: #400918;
+}
+
+.imagenLogoM{
+	width: 40px;
+	height: 40px;
+}
+
+.bg-BC2742{
+	background-color: #BC2742;
+}
+
+.ulNavPatrocinadores{
+	list-style: none;
+}
+
+.transformScale:hover{
+	transform: scale(2.0);
+	transition: 2s;
+}
+
+.transformRotate:hover{
+	transform: rotate(360deg);
+	transition: 2s
+}
+
+.bgPatrocinadores{
+	background-color: slategrey;
+}
+
+.redesSociales{
+	text-decoration: none;
+	list-style: none;
+}
+
+/*Termina Clases del Index */
+
+/*Comienzan clases de Entremainto.html*/
+.bg-Entrenamiento{
+	background-color: #403526;
+}
+
+section picture:hover{
+	cursor: pointer;
+}
+/*Terminan clases de Entremainto.html*/
+
+/*Comienzan clases de Novedades.html*/
+.bg-Novedades{
+	background-color: #BC2742;
+}
+
+
+
+/*Terminan clases de Novedades.html*/
+
+
+.bgContacto{
+	background-color: #400918;
+}
+
+.bgCarreras{
+	background-color: white;
+}
