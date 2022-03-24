@@ -41,7 +41,7 @@ section div ul li button:hover {
   font-size: 1.02rem; }
 
 footer {
-  background-color: #BC2742; }
+  align-items: center; }
   footer div a img {
     max-height: 40px;
     max-width: 40px; }
