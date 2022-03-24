@@ -1,73 +1,50 @@
-*{
-	/*font-family: 'roboto', sans-serif;*/
-	margin: 0px;
-	padding: 0px;
-	box-sizing: border-box;
-}
-/* Clases del Index*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Roboto&display=swap");
+.navbar {
+  margin: 0;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .navbar ul {
+    display: flex;
+    align-items: center; }
+    .navbar ul li {
+      list-style: none; }
+      .navbar ul li a {
+        color: black; }
+        .navbar ul li a:hover {
+          font-size: 1.2rem; }
+      .navbar ul li ul {
+        display: none; }
+        .navbar ul li ul li a:hover {
+          color: purple;
+          font-size: 1.1rem;
+          padding-top: 2px; }
 
-.bg-index{
-background-color: #400918;
-}
+main {
+  background-color: #BC2742; }
 
-.imagenLogoM{
-	width: 40px;
-	height: 40px;
-}
+h1, h2, h3 {
+  color: white; }
 
-.bg-BC2742{
-	background-color: #BC2742;
-}
+section ul li {
+  list-style: none; }
 
-.ulNavPatrocinadores{
-	list-style: none;
-}
+section ul li img {
+  max-height: 40px;
+  max-width: 40px; }
 
-.transformScale:hover{
-	transform: scale(2.0);
-	transition: 2s;
-}
+section ul li img:hover {
+  transform: scale(1.4);
+  transition: 1s; }
 
-.transformRotate:hover{
-	transform: rotate(360deg);
-	transition: 2s
-}
+section ul li button:hover {
+  transform: scale(1.1);
+  transition: 1s; }
 
-.bgPatrocinadores{
-	background-color: slategrey;
-}
-
-.redesSociales{
-	text-decoration: none;
-	list-style: none;
-}
-
-/*Termina Clases del Index */
-
-/*Comienzan clases de Entremainto.html*/
-.bg-Entrenamiento{
-	background-color: #403526;
-}
-
-section picture:hover{
-	cursor: pointer;
-}
-/*Terminan clases de Entremainto.html*/
-
-/*Comienzan clases de Novedades.html*/
-.bg-Novedades{
-	background-color: #BC2742;
-}
-
-
-
-/*Terminan clases de Novedades.html*/
-
-
-.bgContacto{
-	background-color: #400918;
-}
-
-.bgCarreras{
-	background-color: white;
-}
+footer {
+  background-color: #BC2742; }
+  footer div a img {
+    max-height: 40px;
+    max-width: 40px; }

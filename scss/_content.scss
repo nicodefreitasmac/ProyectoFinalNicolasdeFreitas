@@ -1,0 +1,24 @@
+main {
+  background-color: #BC2742; }
+
+h1, h2, h3 {
+  color: white; }
+
+section ul li {
+  list-style: none; }
+  section ul li img {
+    max-height: 40px;
+    max-width: 40px; }
+
+section ul li img {
+  &:hover{
+  transform: scale(1.4);
+  transition: 1s; }
+}
+
+section ul li button {
+  &:hover{
+  transform: scale(1.1);
+  transition: 1s; }
+}
+
