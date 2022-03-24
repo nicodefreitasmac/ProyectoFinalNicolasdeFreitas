@@ -1,0 +1,31 @@
+main{
+	background-color: $bgIndex;
+}
+
+h1,h2,h3{
+	color: $mainColor;
+}
+
+section ul li {
+	list-style: none;
+	
+
+	img{
+		max-height: $imagenes;
+		max-width:	$imagenes ;
+		&:hover {
+			transform: scale(1.8);
+			transition: 2s;
+	}
+}
+}
+section div ul li button{
+	&:hover{
+		font-size: 1.02rem;
+		
+	}
+	}
+
+
+
+
