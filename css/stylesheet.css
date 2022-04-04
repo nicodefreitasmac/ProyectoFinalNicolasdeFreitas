@@ -44,6 +44,21 @@ section ul li button:hover {
   transform: scale(1.1);
   transition: 1s; }
 
+.textoXL {
+  font-size: 2em;
+  line-height: 2.2em;
+  color: white;
+  text-align: center; }
+
+.displayFlexCenter {
+  display: flex;
+  justify-content: space-around;
+  align-item: center;
+  width: 50%; }
+
+.bgEntrenamiento {
+  background-color: #403526; }
+
 footer {
   align-items: center; }
   footer div a img {

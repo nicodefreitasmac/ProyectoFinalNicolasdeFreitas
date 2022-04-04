@@ -1,5 +1,4 @@
-
-main {
+main{
   background-color: #BC2742; }
 
 h1, h2, h3 {
@@ -22,4 +21,44 @@ section ul li button {
   transform: scale(1.1);
   transition: 1s; }
 }
+
+@mixin texto($font-size, $line-height, $color, $text-align){
+  font-size: $font-size;
+  line-height: $line-height;
+  color: $color;
+  text-align: $text-align;
+}
+
+.textoXL{
+  @include texto(2em,2.2em,white,center);
+}
+
+
+@mixin align($display, $justify-content, $align-item, $width){
+  display: $display;
+  justify-content: $justify-content;
+  align-item: $align-item;
+  width: $width;
+}
+.displayFlexCenter{
+  @include align(flex,space-around,center,50%);
+}
+
+$ColoresBackgorund:(
+  bgIndex: #BC2742,
+  bgPatrocinadores: slategrey,
+  bgEntrenamiento: #403526,
+  bgNovedades: #BC2742,
+  bgContacto: #400918,
+  bgCarreras: white,);
+
+.bgEntrenamiento{
+  background-color: map-get($map:$ColoresBackgorund,$key:"bgEntrenamiento");
+}
+
+
+
+
+
+
 
