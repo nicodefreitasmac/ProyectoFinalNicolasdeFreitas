@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Roboto&display=swap");
 .navbar {
   margin: 0;
+  width: 100%;
   position: sticky;
   top: 0;
   display: flex;
@@ -30,15 +31,33 @@ h1, h2, h3 {
 
 section ul li {
   list-style: none; }
-  section ul li img {
-    max-height: 40px;
-    max-width: 40px; }
-    section ul li img:hover {
-      transform: scale(1.8);
-      transition: 2s; }
 
-section div ul li button:hover {
-  font-size: 1.02rem; }
+section ul li img {
+  max-height: 40px;
+  max-width: 40px; }
+
+section ul li img:hover {
+  transform: scale(1.4);
+  transition: 1s; }
+
+section ul li button:hover {
+  transform: scale(1.1);
+  transition: 1s; }
+
+.textoXL {
+  font-size: 2em;
+  line-height: 2.2em;
+  color: white;
+  text-align: center; }
+
+.displayFlexCenter {
+  display: flex;
+  justify-content: space-around;
+  align-item: center;
+  width: 50%; }
+
+.bgEntrenamiento {
+  background-color: #403526; }
 
 footer {
   align-items: center; }

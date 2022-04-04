@@ -1,30 +1,63 @@
 main{
-	background-color: $bgIndex;
-}
+  background-color: #BC2742; }
 
-h1,h2,h3{
-	color: $mainColor;
-}
+h1, h2, h3 {
+  color: white; }
 
 section ul li {
-	list-style: none;
-	
+  list-style: none; }
+  section ul li img {
+    max-height: 40px;
+    max-width: 40px; }
 
-	img{
-		max-height: $imagenes;
-		max-width:	$imagenes ;
-		&:hover {
-			transform: scale(1.8);
-			transition: 2s;
-	}
+section ul li img {
+  &:hover{
+  transform: scale(1.4);
+  transition: 1s; }
 }
+
+section ul li button {
+  &:hover{
+  transform: scale(1.1);
+  transition: 1s; }
 }
-section div ul li button{
-	&:hover{
-		font-size: 1.02rem;
-		
-	}
-	}
+
+@mixin texto($font-size, $line-height, $color, $text-align){
+  font-size: $font-size;
+  line-height: $line-height;
+  color: $color;
+  text-align: $text-align;
+}
+
+.textoXL{
+  @include texto(2em,2.2em,white,center);
+}
+
+
+@mixin align($display, $justify-content, $align-item, $width){
+  display: $display;
+  justify-content: $justify-content;
+  align-item: $align-item;
+  width: $width;
+}
+.displayFlexCenter{
+  @include align(flex,space-around,center,50%);
+}
+
+$ColoresBackgorund:(
+  bgIndex: #BC2742,
+  bgPatrocinadores: slategrey,
+  bgEntrenamiento: #403526,
+  bgNovedades: #BC2742,
+  bgContacto: #400918,
+  bgCarreras: white,);
+
+.bgEntrenamiento{
+  background-color: map-get($map:$ColoresBackgorund,$key:"bgEntrenamiento");
+}
+
+
+
 
 
 
