@@ -22,6 +22,12 @@ section ul li button {
   transition: 1s; }
 }
 
+.imagenLogoM{
+  width: 40px;
+  height: 40px;
+}
+
+
 @mixin texto($font-size, $line-height, $color, $text-align){
   font-size: $font-size;
   line-height: $line-height;
@@ -56,8 +62,16 @@ $ColoresBackgorund:(
   background-color: map-get($map:$ColoresBackgorund,$key:"bgEntrenamiento");
 }
 
+.backgroundAtletismo {
+  @extend .bgEntrenamiento;
+  background-color: #400918;
 
+}
 
+.backgroundNatacion {
+  @extend .bgEntrenamiento;
+  background-color: #1CA6A6;
+}
 
 
 

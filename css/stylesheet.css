@@ -44,6 +44,10 @@ section ul li button:hover {
   transform: scale(1.1);
   transition: 1s; }
 
+.imagenLogoM {
+  width: 40px;
+  height: 40px; }
+
 .textoXL {
   font-size: 2em;
   line-height: 2.2em;
@@ -56,8 +60,14 @@ section ul li button:hover {
   align-item: center;
   width: 50%; }
 
-.bgEntrenamiento {
+.bgEntrenamiento, .backgroundAtletismo, .backgroundNatacion {
   background-color: #403526; }
+
+.backgroundAtletismo {
+  background-color: #400918; }
+
+.backgroundNatacion {
+  background-color: #1CA6A6; }
 
 footer {
   align-items: center; }
