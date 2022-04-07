@@ -56,6 +56,10 @@ section div ul li button:hover {
   align-item: center;
   width: 50%; }
 
+.backgrounerror404{
+  background-color: #1CA6A6; 
+}
+
 .bgEntrenamiento, .backgroundAtletismo, .backgroundNatacion {
   background-color: #403526; }
 
