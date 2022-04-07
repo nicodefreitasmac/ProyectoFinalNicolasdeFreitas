@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Roboto&display=swap");
 .navbar {
   margin: 0;
-  width: 100%;
   position: sticky;
   top: 0;
   display: flex;
@@ -31,18 +30,19 @@ h1, h2, h3 {
 
 section ul li {
   list-style: none; }
+  section ul li img {
+    max-height: 40px;
+    max-width: 40px; }
+    section ul li img:hover {
+      transform: scale(1.8);
+      transition: 2s; }
 
-section ul li img {
-  max-height: 40px;
-  max-width: 40px; }
+section div ul li button:hover {
+  font-size: 1.02rem; }
 
-section ul li img:hover {
-  transform: scale(1.4);
-  transition: 1s; }
-
-section ul li button:hover {
-  transform: scale(1.1);
-  transition: 1s; }
+.imagenLogoM {
+  width: 40px;
+  height: 40px; }
 
 .textoXL {
   font-size: 2em;
@@ -56,8 +56,14 @@ section ul li button:hover {
   align-item: center;
   width: 50%; }
 
-.bgEntrenamiento {
+.bgEntrenamiento, .backgroundAtletismo, .backgroundNatacion {
   background-color: #403526; }
+
+.backgroundAtletismo {
+  background-color: #400918; }
+
+.backgroundNatacion {
+  background-color: #1CA6A6; }
 
 footer {
   align-items: center; }

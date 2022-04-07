@@ -1,26 +1,36 @@
 main{
-  background-color: #BC2742; }
+	background-color: $bgIndex;
+}
 
-h1, h2, h3 {
-  color: white; }
+h1,h2,h3{
+	color: $mainColor;
+}
 
 section ul li {
-  list-style: none; }
-  section ul li img {
-    max-height: 40px;
-    max-width: 40px; }
+	list-style: none;
+	
 
-section ul li img {
-  &:hover{
-  transform: scale(1.4);
-  transition: 1s; }
+	img{
+		max-height: $imagenes;
+		max-width:	$imagenes ;
+		&:hover {
+			transform: scale(1.8);
+			transition: 2s;
+	}
+}
+}
+section div ul li button{
+	&:hover{
+		font-size: 1.02rem;
+		
+	}
+	}
+
+.imagenLogoM{
+  width: 40px;
+  height: 40px;
 }
 
-section ul li button {
-  &:hover{
-  transform: scale(1.1);
-  transition: 1s; }
-}
 
 @mixin texto($font-size, $line-height, $color, $text-align){
   font-size: $font-size;
@@ -56,9 +66,16 @@ $ColoresBackgorund:(
   background-color: map-get($map:$ColoresBackgorund,$key:"bgEntrenamiento");
 }
 
+.backgroundAtletismo {
+  @extend .bgEntrenamiento;
+  background-color: #400918;
 
+}
 
-
+.backgroundNatacion {
+  @extend .bgEntrenamiento;
+  background-color: #1CA6A6;
+}
 
 
 
