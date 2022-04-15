@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<title>Inscripciones de Eventos - Triathlon Uruguay</title>
+	<meta name="description" content="Estamos para ayudarte, Tenes dudas o consultas respecto a una competencia? hacenos saber...">
+    <meta name="keywords" content="Contacto, FAQ, socialmedia, Natacion, Triathlon, Duathlon, IronMAn, Triatlón, Duatlón">
+  </head>
+</head>
+<body>
+	<header class="container-fluid bg-index">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Triathlon Uruguay</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="entrenamiento.html">Entrenamiento</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="novedades.html">Novedades</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="carreras.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Carreras
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="carreras/resumendecarreras.html">Todas</a></li>
+                  <li><a class="dropdown-item" href="carreras/atletismo.html">Atletismo</a></li>
+                  <li><a class="dropdown-item" href="carreras/ciclismo.html">Ciclismo</a></li>
+                  <li><a class="dropdown-item" href="carreras/natacion.html">Natacion</a></li>
+                  <li><a class="dropdown-item" href="carreras/duathlon.html">Duathlon</a></li>
+                  <li><a class="dropdown-item" href="carreras/triathlon.html">Triathlon</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+	<main class="bgEntrenamiento">
+
+<h2 class="py-3 px-3">Datos del Corredor</h2>
+	<form class="row py-4 g-3">
+
+  <div class="col-md-6">
+    <label for="name" class="form-label px-2 text-white">Nombre</label>
+    <input type="name" class="form-control" id="name">
+  </div>
+
+  <div class="col-md-6">
+    <label for="lastname" class="form-label text-white">Apellido</label>
+    <input type="lastname" class="form-control" id="lastname">
+  </div>
+
+  <div class="col-6">
+    <label for="Documentodeidentidad" class="form-label px-2 text-white">Documento de Identidad</label>
+    <input type="text" class="form-control" id="Documentodeidentidad" placeholder="1.111.111-0">
+  </div>
+
+  <div class="col-6">
+    <label for="Fechadenacimiento" class="form-label text-white">Fecha de Nacimiento</label>
+    <input type="text" class="form-control" id="Fechadenacimiento" placeholder="25/07/1986">
+  </div>
+
+  <div class="col-6">
+    <label for="inputAddress1" class="form-label px-2 text-white ">Dirección</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="Calle y Numero de puerta">
+  </div>
+
+ <div class="col-6">
+    <label for="inputAddress2" class="form-label text-white ">Dirección 2</label>
+    <input type="text" class="form-control" id="inputAddress2" placeholder="Numero de Apartamento">
+  </div>
+
+<div class="col-6">
+    <label for="email" class="form-label px-2 text-white ">Email</label>
+    <input type="text" class="form-control" id="email" placeholder="a@a.com">
+  </div>
+
+  <div class="col-6">
+    <label for="Telefono" class="form-label text-white ">Celular</label>
+    <input type="text" class="form-control" id="inputAddress2" placeholder="094-444-444">
+  </div>
+
+  <div class="col-md-2	">
+    <label for="inputZip" class="form-label px-2 text-white">Codigo Postal</label>
+    <input type="text" class="form-control" id="inputZip">
+  </div>
+
+  <div class="col-md-4">
+    <label for="inputCity" class="form-label text-white">Ciudad</label>
+    <input type="text" class="form-control" id="inputCity">
+  </div>
+
+  <div class="col-md-6">
+    <label for="Pais" class="form-label text-white">Nacionalidad</label>
+    <select id="Pais" class="form-select">
+      <option selected>Elegir...</option>
+      <option>Uruguay</option>
+      <option>Argentina</option>
+      <option>Chile</option>
+      <option>Brasil</option>
+      <option>Colombia</option>
+      <option>Otro</option>
+    </select>
+  </div>
+
+
+<h2 class="py-3 px-3">Información de la Carrera</h2>
+
+  <div class="col-md-5">
+    <label for="Carrera" class="form-label px-2 text-white">Carrera</label>
+    <select id="Carrera" class="form-select">
+      <option selected>Elegir...</option>
+      <option>Marathon de Montevideo</option>
+      <option>Marathon de Buenos Aires</option>
+      <option>Marathon de Nueva York </option>
+      <option>IronMan de Punta del Este 70.3 </option>
+    </select>
+  </div>
+
+  <div class="col-md-5">
+    <label for="Experiencia" class="form-label text-white">Experiencia</label>
+    <select id="Experiencia" class="form-select">
+      <option selected>Elegir...</option>
+      <option>Novato</option>
+      <option>Experiencia en Marathones</option>
+      <option>Experiencia en Triathlones</option>
+      <option>Profesional</option>
+      <option>Otro</option>
+    </select>
+  </div>
+
+  <div class="col-md-5">
+    <label for="Tallederemera" class="form-label px-2 text-white">Talle de la Remera</label>
+    <select id="Tallederemera" class="form-select">
+      <option selected>Elegir...</option>
+      <option>XS</option>
+      <option>S</option>
+      <option>M</option>
+      <option>L</option>
+      <option>XL</option>
+      <option>XXL</option>
+    </select>
+  </div>
+
+  <div class="col-md-5">
+    <label for="inscripcion" class="form-label text-white">Tipo de inscripcion</label>
+    <select id="incripcion" class="form-select">
+      <option selected>Elegir...</option>
+      <option>Solamente Carrera.</option>
+      <option>Traslados y Carrera.</option>
+      <option>Traslados, Hotel y Carrera<./option>
+    </select>
+  </div>
+
+
+ <h2 class="py-3 px-3">Información de Pago</h2>
+
+  <div class="col-md-5">
+    <label for="Tarjeta" class="form-label px-2 text-white">Tarjeta</label>
+    <select id="TArjeta" class="form-select">
+      <option selected>Elegir...</option>
+      <option>Visa</option>
+      <option>Master Card</option>
+      <option>American Express</option>
+    </select>
+  </div>
+
+  <div class="col-md-5">
+    <label for="Numerodetarjeta" class="form-label text-white">Numero de Tarjeta</label>
+    <input type="text" class="form-control" id="numerodetarjeta" placeholder="4444-2312-2333-3333">
+  </div>
+
+ <div class="col-md-3">
+    <label for="mesdevencimiento" class="form-label text-white px-2">Mes de Vencimiento</label>
+    <select id="Carrera" class="form-select">
+      <option selected>Elegir...</option>
+      <option>Enero</option>
+      <option>Febrero</option>
+      <option>Marzo</option>
+      <option>Abril</option>
+      <option>Mayo</option>
+      <option>Junio</option>
+      <option>Julio</option>
+      <option>Agosto</option>
+      <option>Setiembre</option>
+      <option>Octubre</option>
+      <option>Noviembre</option>
+      <option>Diciembre</option>
+	</select>
+  </div>
+
+  <div class="col-md-3">
+    <label for="añodevencimiento" class="form-label text-white">Año de Vencimiento</label>
+    <select id="añodevencimiento" class="form-select">
+      <option selected>Elegir...</option>
+      <option>2022</option>
+      <option>2023</option>
+      <option>2024</option>
+      <option>2025</option>
+	</select>
+  </div>
+
+  <div class="col-md-3">
+    <label for="codigodeseguridad" class="form-label text-white">Codigo de Seguridad de la Tarjeta</label>
+    <input type="text" class="form-control" id="codigodeseguridad" placeholder="111">
+  </div>
+
+  <div class="col-12 px-4">
+    <button type="submit" class="btn btn-primary ">Enviar</button>
+  </div>
+
+
+</form>
+</main>
+
+
+<footer class="py-3 px-3 bg-light d-flex justify-content-around align-items-center ">
+
+  <div>
+    <span class="text-muted">Permanezca en contacto con Nosotros.</span>
+  </div>  
+
+  <div class="d-flex justify-content-around align-items-center w-50 ">
+    <a  href="https://facebook.com" target="_blank">
+      <img src="img/Facebook.png"  alt="Seguinos en Facebook - Logo de Facebook"> 
+    </a>
+    <a href="https://twitter.com" target="_blank">
+     <img src="img/twitter.png"  alt="Seguinos en Twitter - Logo de Twitter">  
+    </a>
+    <a href="https://instagram.com" target="_blank">
+     <img src="img/instagram.png" alt="Seguinos en instagram - Logo de Instagram"> 
+    </a>
+    <a href="https://instagram.com" target="_blank">
+      <img src="img/whatsapp.png" alt="Contactanos por WHatsapp"> 
+  </div> 
+
+</footer> 
+<!-- Aqui Termina el Footer -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
